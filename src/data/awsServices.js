@@ -2,6 +2,7 @@ const awsServices = [
   {
     id: "ec2",
     name: "Amazon EC2",
+    description: "Scalable virtual servers in the cloud.",
     children: [
       {
         id: "instances",
@@ -19,6 +20,7 @@ const awsServices = [
   {
     id: "s3",
     name: "Amazon S3",
+    description: "Object storage built to store and retrieve data.",
     children: [
       {
         id: "buckets",
@@ -34,6 +36,7 @@ const awsServices = [
   {
     id: "iam",
     name: "AWS IAM",
+    description: "Manage users and permissions securely.",
     children: [
       {
         id: "users",
@@ -58,6 +61,7 @@ const awsServices = [
   {
     id: "rds",
     name: "Amazon RDS",
+    description: "Managed relational database service.",
     children: [
       {
         id: "databases",
@@ -73,6 +77,7 @@ const awsServices = [
   {
     id: "lambda",
     name: "AWS Lambda",
+    description: "Run code without provisioning servers.",
     children: [
       {
         id: "functions",
@@ -88,6 +93,7 @@ const awsServices = [
   {
     id: "cloudfront",
     name: "Amazon CloudFront",
+    description: "Global content delivery network (CDN).",
     children: [
       {
         id: "distributions",
